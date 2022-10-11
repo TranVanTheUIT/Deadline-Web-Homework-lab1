@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+.box {
+	width: 100px;
+	height: 150px;
+	border-left: 10px dotted #e5e5f6;
+	margin-right: 10px;
+	padding: 0 10px;
+	font-size: 40px;
+	box-shadow: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(45deg, rgb(237, 122, 193), rgb(212, 42, 107));
+}
+div:nth-child(6) {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.box:hover {
+	background: yellow;
+	color: goldenrod;
+	cursor: pointer;
+}
